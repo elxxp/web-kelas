@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    background: url(images/icons-gray-bg.svg);
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.form-content {
+    text-align: center;
+    background-color: white;
+    border-radius: 2vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 7vh;
+    width: 62vh;
+}
+.form-content img {
+    width: 10vh;
+    margin-top: 2vh;
+}
+
+.title {
+    margin-top: -2.5vh;
+}
+.title h1 {
+    font-size: 4.2vh;
+}
+.title p {
+    font-size: 2vh;
+    margin-top: -3vh;
+}
+
+.input-box {
+    margin-top: 5vh;
+}
+.input {
+    margin-left: 8.15vh;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 1vh;
+    margin-bottom: 2vh;
+    width: 40vh;
+    padding: 1vh 2vh;
+}
+.input input {
+    border: none;
+    outline: none;
+    padding: 2vh;
+    width: 30vh;
+    /* background-color: red; */
+}
+.input input::placeholder {
+    font-size: 2vh;
+}
+.input i {
+    transform: translateY(15%);
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+    font-size: 2.5vh;
+}
+
+.status {
+    /* display: none; */
+}
+.status p {
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.submit {
+    margin-top: 5vh;
+    /* background-color: red; */
+}
+.submit button {
+    outline: none;
+    border: 0.4vh solid black;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    padding: 2.5vh 0vh;
+    width: 30vh;
+    border-radius: 1vh;
+}
+.submit button:hover {
+    outline: none;
+    border: 0.4vh solid black;
+    background-color: transparent;
+    font-weight: bold;
+    color: black;
+    padding: 2.5vh 0vh;
+    width: 30vh;
+    border-radius: 1vh;
+}
+
+.redirect {
+    font-size: 2vh;
+    margin-top: -1vh;
+}
+.redirect a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.redirect a:hover {
+    text-decoration: underline;
+}
+
+.credit p {
+    font-size: 2vh;
+    font-weight: bold;
+    padding: 3vh 0vh;
+}

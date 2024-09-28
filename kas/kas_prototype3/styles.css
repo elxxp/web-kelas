@@ -1,0 +1,12 @@
+.check {
+    color: transparent;
+    background-color: green;
+}
+.uncheck {
+    color: transparent;
+    background-color: red;
+}
+.check, .uncheck {
+    padding: 0px 0px 0px 8px;
+    pointer-events: none;
+}

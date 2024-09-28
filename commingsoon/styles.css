@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    font-family: "Space Grotesk", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+.TW-logo-navbar img {
+    height: 8vh;
+}
+
+
+@media (min-width: 992px) {
+    .navbar-desktop {
+        display: contents;
+    }
+    .navbar-mobile {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .navbar-mobile {
+        display: contents;
+    }
+    .navbar-desktop {
+        display: none;
+    }
+}

@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    background: url(images/icons-gray-bg.svg);
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+@media (min-width: 786px){
+    .form-content {
+        text-align: center;
+        background-color: white;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-top: 2.5rem;
+        width: auto;
+    }
+    .form-content img {
+        width: 4rem;
+        margin-top: 1rem;
+    }
+    
+    .title {
+        margin-top: -0.8rem;
+    }
+    .title h1 {
+        font-size: 1.7rem;
+    }
+    .title p {
+        font-size: 0.9rem;
+        margin-top: -1.25rem;
+    }
+    
+    .input-box {
+        margin-top: 2rem;
+        padding: 0vh 5rem;
+    }
+    .input {
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+        width: auto;
+        padding: 1vh 2vh;
+    }
+    .input input {
+        border: none;
+        outline: none;
+        padding: 0.7rem;
+        width: 12rem;
+        /* background-color: red; */
+    }
+    .input input::placeholder {
+        font-size: 0.85rem;
+    }
+    .input i {
+        transform: translateY(15%);
+        padding: 0rem 0.7rem;
+        /* padding-left: 1.5vh;
+        padding-right: 1.5vh; */
+        font-size: 0.8rem;
+    }
+    
+    .status p {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    
+    .submit {
+        margin-top: 2rem;
+        /* background-color: red; */
+    }
+    .submit button {
+        outline: none;
+        border: 0.15rem solid black;
+        background-color: black;
+        font-weight: bold;
+        color: white;
+        padding: 1rem 0rem;
+        width: 12rem;
+        border-radius: 0.5rem;
+        transition: 0.2s;
+    }
+    .submit button:hover {
+        outline: none;
+        border: 0.15rem solid black;
+        background-color: transparent;
+        font-weight: bold;
+        color: black;
+        padding: 1rem 0rem;
+        width: 12rem;
+        border-radius: 0.5rem;
+        transition: 0.2s;
+    }
+    
+    .redirect {
+        font-size: 0.8rem;
+        margin-top: -0.5rem;
+    }
+    .redirect a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    .redirect a:hover {
+        text-decoration: underline;
+    }
+    
+    .credit p {
+        font-size: 0.84rem;
+        font-weight: bold;
+        padding: 3vh 0vh;
+    }
+}
+
+
+@media (max-width: 786px){
+    .form-content {
+        text-align: center;
+        background-color: white;
+        border-radius: 0.8rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-top: 6rem;
+        width: auto;
+    }
+    .form-content img {
+        width: 4rem;
+        margin-top: 1rem;
+    }
+    
+    .title {
+        margin-top: -0.8rem;
+    }
+    .title h1 {
+        font-size: 1.7rem;
+    }
+    .title p {
+        font-size: 0.9rem;
+        margin-top: -1.25rem;
+    }
+    
+    .input-box {
+        margin-top: 3rem;
+        padding: 0vh 2.5rem;
+    }
+    .input {
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+        width: 16.5rem;
+        padding: 1vh 2vh;
+    }
+    .input input {
+        border: none;
+        outline: none;
+        padding: 0.7rem;
+        width: 12rem;
+        /* background-color: red; */
+    }
+    .input input::placeholder {
+        font-size: 0.85rem;
+    }
+    .input i {
+        transform: translateY(15%);
+        padding: 0rem 0.5rem;
+        /* padding-left: 1.5vh;
+        padding-right: 1.5vh; */
+        font-size: 1rem;
+    }
+    
+    .status p {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    
+    .submit {
+        margin-top: 2rem;
+        /* background-color: red; */
+    }
+    .submit button {
+        outline: none;
+        border: 0.15rem solid black;
+        background-color: black;
+        font-weight: bold;
+        color: white;
+        padding: 1rem 0rem;
+        width: 12rem;
+        border-radius: 0.5rem;
+        transition: 0.2s;
+    }
+    .submit button:hover {
+        outline: none;
+        border: 0.15rem solid black;
+        background-color: transparent;
+        font-weight: bold;
+        color: black;
+        padding: 1rem 0rem;
+        width: 12rem;
+        border-radius: 0.5rem;
+        transition: 0.2s;
+    }
+    
+    .redirect {
+        font-size: 0.8rem;
+        margin-top: -0.5rem;
+    }
+    .redirect a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    .redirect a:hover {
+        text-decoration: underline;
+    }
+    
+    .credit p {
+        font-size: 0.84rem;
+        font-weight: bold;
+        padding: 3vh 0vh;
+    }
+}

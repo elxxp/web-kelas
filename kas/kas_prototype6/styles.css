@@ -1,0 +1,73 @@
+* {
+    text-align: center;
+}
+.check {
+    color: transparent;
+    background-color: green;
+}
+.uncheck {
+    color: transparent;
+    background-color: red;
+}
+.check, .uncheck {
+    padding: 0px 6px 0px 6px;
+    pointer-events: none;
+}
+
+.tabdata:nth-child(odd) {
+    background-color: rgb(219, 219, 219);
+}
+
+.tabjudul {
+    text-align: center;
+}
+.tabkas{
+    margin: auto;
+    width: 1200px;
+    padding-bottom: 5rem;
+}
+
+.tabkas-data {
+    background-color: rgb(219, 219, 219);
+}
+
+.tabkas-tababsen {
+    width: 40px;
+    text-align: center;
+}
+.tabkas-tabnama {
+    width: 800px;
+    text-align: left;
+}
+.tabkas-tabtanggal th {
+    width: 40px;
+}
+.tabkas-tabtanggal {
+    margin: auto;
+}
+
+.tabtagihan {
+    margin: auto;
+}
+.tabtagihan tr:nth-child(even) {
+    background-color: rgb(219, 219, 219);
+}
+.tagihan-tabnama {
+    text-align: left;
+}
+.tagihan-tabtagihan {
+    width: 8rem;
+}
+
+
+@media (max-width: 768px){
+    .tabkas {
+        color: blue;
+    }
+}
+@media (min-width: 768px){
+    .tabkas {
+        color: black;
+    }
+
+}

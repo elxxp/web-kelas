@@ -1,0 +1,12 @@
+.tabel-box {
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: fit-content;
+    max-height: 66.4vh;
+}
+
+.heading th {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
